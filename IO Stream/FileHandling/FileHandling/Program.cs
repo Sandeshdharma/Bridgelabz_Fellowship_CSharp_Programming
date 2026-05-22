@@ -53,9 +53,9 @@ namespace FileHandling
             //Console.ReadLine();
 
 
-            //Create cs = new Create();
-            //cs.createfile();
-            //Console.ReadLine();
+            Create cs = new Create();
+            cs.createfile();
+            Console.ReadLine();
 
             //WriteUsingStream2 wrd = new WriteUsingStream2();
             //wrd.write();
@@ -86,15 +86,15 @@ namespace FileHandling
             //Ap.Apnd();
             //Console.ReadLine();
 
-            //WriteusingFileStream WTF =  new WriteusingFileStream();
+            WriteusingFileStream WTF = new WriteusingFileStream();
 
-            //WTF.WriteTxt();
-            //Console.ReadLine();
-
-
-            Read rs = new Read();
-            rs.ReadContent();
+            WTF.WriteTxt();
             Console.ReadLine();
+
+
+            //Read rs = new Read();
+            //rs.ReadContent();
+            //Console.ReadLine();
 
         }
     }
